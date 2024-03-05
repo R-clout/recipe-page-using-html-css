@@ -1,0 +1,56 @@
+:root {
+  --eggshell: hsl(31, 53%, 90%);
+  --wenge-brown: hsl(30, 10%, 34%);
+  --dark-charcoal: hsl(24, 5%, 18%);
+  --white: hsl(0, 0%, 100%);
+  --nutmeg: hsl(14, 45%, 36%);
+  --dark-raspberry: hsl(332, 51%, 32%);
+  --rose-white: hsl(330, 100%, 98%);
+  --light-grey: hsl(30, 18%, 87%);
+}
+* {
+  font-family: "Young Serif", "Outfit", sans-serif;
+}
+body {
+  background-color: var(--eggshell);
+}
+.label {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  margin: 5rem;
+}
+img {
+  width: 100%;
+  border-radius: 1rem;
+}
+.wierdo {
+  background: var(--rose-white);
+  border-radius: 0.5rem;
+  padding-left: 1rem;
+}
+.meduim-divider {
+  border-top: 3px solid var(--light-grey);
+}
+.table {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10rem;
+  padding-left: 1.5rem;
+}
+h1,
+h2,
+li,
+p {
+  padding: 0.1rem;
+}
+h2,
+li::marker,
+.table > strong {
+  color: var(--nutmeg);
+}
+.wierdo > h2,
+p {
+  font-size: 16px;
+  font-weight: 400;
+}
